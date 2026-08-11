@@ -1,0 +1,7 @@
+name: IdleStop
+version: ${project.version}
+main: com.wilder0p.idlestop.IdleStopPlugin
+api-version: '26.2'
+authors: [wilder0p]
+description: Stops the server after minimum uptime once no players have been online for a set period.
+website: https://github.com/wilderop/IdleStop
