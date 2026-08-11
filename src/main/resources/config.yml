@@ -1,0 +1,13 @@
+# IdleStop configuration
+
+# Minimum server uptime (in hours) required before a stop is allowed.
+# The plugin records the time it enabled (effectively server start).
+min-uptime-hours: 24
+
+# How long the server must remain completely empty (no players online)
+# before /stop is executed. Count is reset silently if anyone joins.
+empty-seconds: 60
+
+# How often (in ticks) the plugin checks the conditions.
+# 20 ticks = 1 second. Lower values = more responsive but slightly more work.
+check-interval-ticks: 20
